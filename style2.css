@@ -1,0 +1,36 @@
+.emblem{
+   color: #eb4034;
+   font-family: 'Open Sans', sans-serif;
+   float: left;
+   font-weight: bolder;
+   font-size: 1em;
+}
+.ntkcss{
+   margin-left: 0;
+}
+.ask-project{
+   font-weight: bold;
+}
+.connect-me{
+   color: white;
+   margin-bottom: 2rem;
+}
+.thoughts{
+   align-items: center;
+   display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: 18em;
+}
+.thought-link{
+   font-size: 10px;
+}
+.font-bold{
+   font-size: 16px;; 
+}
+.thought-write{
+   height: 5rem;
+}
