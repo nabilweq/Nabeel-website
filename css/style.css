@@ -427,7 +427,7 @@ a.banner-button, button.submit {
     font-size: 1.5em;
     font-weight: 700;
 	border:none;
-    padding: 14px 34px;
+    padding: 14px 21px;
 	text-shadow: -1px -1px 0.5px rgba(0, 0, 0, 0.5);
 	box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5);
     -webkit-transition: 0.5s all;
