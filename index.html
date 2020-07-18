@@ -27,6 +27,15 @@
 	
 </head>
 <body>
+	<div id="loader-wrapper" class="loader-wrapper">
+		<span class="loader"><span class="loader-inner"></span></span>
+	  </div>
+	  <script>
+		  window.addEventListener('DOMContentLoaded',hidMe)
+		  function hidMe(){
+			document.getElementById('loader-wrapper').style.display = 'none';
+		  }
+	  </script>
 	
 	<!-- header -->
 		<!-- navigation -->
