@@ -45,7 +45,7 @@
 				<div class="container-fluid px-lg-5 ">
 					<nav class="mnu mx-auto">
 						<h2 class="emblem toggle " style="color:#eb4034;"> nabilweq</h2>
-						<label for="drop" class="toggle "><i class=" menu-pic fas fa-bars"></i></label>
+						<label for="drop" class="toggle "><i onClick="hideBars()" id="menu-pic" class="menu-pic fas fa-bars"></i><i style="display: none;" onClick="hideTimes()" id="menuhide-pic" class="menuhide-pic fas fa-times"></i></label>
 								<input type="checkbox" id="drop">
 								<ul class="menu">
 									<li class="mr-lg-4 mr-3 active"><a href="index.html">Home</a></li>
@@ -257,6 +257,20 @@
 	 <script src="script1.js"></script>
 	 <script src="https://kit.fontawesome.com/bb30f3b94c.js" crossorigin="anonymous"></script>
 	 <script>
+		  function hideBars(){
+			 const a = document.getElementById("menu-pic");
+			 const b = document.getElementById("menuhide-pic");
+			 b.style.display = "block";
+			 a.style.display = "none";
+
+		 }
+		 function hideTimes(){
+			const a = document.getElementById("menu-pic");
+			 const b = document.getElementById("menuhide-pic");
+			 a.style.display = "block";
+			 b.style.display = "none";
+
+		 }
         function postToGoogle(){
 			var field1=$("#name").val();
 			var field2=$("#email").val();
