@@ -76,7 +76,10 @@
 .thought-write{
    height: 5rem;
 }
-.menu-pic, .menuhide-pic{
+.menu-pic{
+   font-size: 18px;  
+} 
+.menuhide-pic{
    font-size: 18px;  
 }
 
